@@ -1,0 +1,382 @@
+/* About_Us Css */
+
+.main {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.imgn1 {
+  opacity: 0.9;
+  height: 500px;
+  width: 500px;
+  margin: 80px;
+  position: relative;
+  bottom: 70px;
+}
+
+.imgn1:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+  opacity: 1.2;
+}
+
+.imgn11 {
+  opacity: 0.9;
+  height: 500px;
+  width: 500px;
+  margin: 80px;
+  position: relative;
+  bottom: 10px;
+}
+
+.imgn11:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+  opacity: 1.2;
+}
+
+.row123 {
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  left: 50px;
+  top: 100px;
+}
+
+.row1234 {
+  font-size: 25px;
+  padding: 40px;
+  font-weight: bold;
+  position: relative;
+  left: 50px;
+  top: 100px;
+}
+
+.row12345 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.txt122 {
+  color: black;
+  position: relative;
+  top: 80px;
+  left: 80px;
+}
+
+.wifi {
+  height: 80px;
+  width: 90px;
+  background: linear-gradient( to right, #1b0f019f, #1f1800 , #1b0f019f);
+  border-radius: 10px;
+  position: relative;
+  bottom: 50px;
+  left: 140px;
+}
+
+.wifi:hover {
+  background-color: transparent;
+  transition: all 0.5s;
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+  background: linear-gradient( to right, #221200, #1f1800);
+}
+
+.wifitxt {
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+
+.p1 {
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+  bottom: 20px;
+  font-weight: bold;
+}
+
+.food {
+  height: 80px;
+  width: 90px;
+  background: linear-gradient( to right, #1b0f019f, #1f1800 , #1b0f019f);
+  border-radius: 10px;
+  position: relative;
+  bottom: 50px;
+  left: 140px;
+}
+
+.food:hover {
+  background-color: transparent;
+  background-size: cover;
+  transition: all 0.5s;
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+  background: linear-gradient( to right, #221200, #1f1800);
+}
+
+.foodtxt {
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+
+.security {
+  height: 80px;
+  width: 90px;
+  background: linear-gradient( to right, #1b0f019f, #1f1800 , #1b0f019f);
+  border-radius: 10px;
+  position: relative;
+  bottom: 50px;
+  left: 140px;
+}
+
+.security:hover {
+  background-color: transparent;
+  transition: all 0.5s;
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+  background: linear-gradient( to right, #221200, #1f1800);
+}
+
+.securitytxt {
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+
+.library {
+  height: 80px;
+  width: 90px;
+  background: linear-gradient( to right, #1b0f019f, #1f1800 , #1b0f019f);
+  border-radius: 10px;
+  position: relative;
+  bottom: 50px;
+  left: 140px;
+}
+
+.library:hover {
+  background-color: transparent;
+  transition: all 0.5s;
+  transform: scale(1.1);
+  filter: drop-shadow(0 0 0.75rem rgb(255, 255, 255));
+  background: linear-gradient( to right, #221200, #1f1800);
+}
+
+.librarytxt {
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+
+.card {
+  opacity: 0.9;
+  height: auto;
+  width: auto;
+  margin: 20px;
+  width: 400px !important;
+  position: relative;
+  bottom: 100px;
+}
+
+.card:hover {
+  transition: all 0.5s;
+  transform: scale(1.1);
+  opacity: 1.9;
+}
+
+.card-bg {
+  background: #d9d9d9;
+  height: auto;
+  width: auto;
+}
+
+.txtcard {
+  color: black;
+  font-size: 18px;
+  position: relative;
+  bottom: 100px;
+  right: 40px;
+}
+
+.img5 {
+  opacity: 1;
+  padding: 10px;
+  height: 350px;
+  width: 250px;
+  position: relative;
+  left: 60px;
+  bottom: 110px;
+}
+
+.img5:hover {
+  transition: all 0.5s;
+  filter: brightness(1.2);
+}
+
+.img5_1 {
+  padding: 10px;
+  height: 350px;
+  width: 250px;
+  position: relative;
+  right: 140px;
+  bottom: 80px;
+}
+
+.img5_1:hover {
+  transition: all 0.5s;
+  filter: brightness(1.2);
+}
+
+.bg2 {
+  background-image: url("image/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+}
+
+.gallery {
+  color: black;
+  font-size: 80px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu,
+    Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  padding: 20px;
+}
+
+.આપડી_સંસ્થાઓ_filter{
+  position: relative;
+  bottom: 100px;
+  left: 40px;
+}
+.bg-gallery {
+  background-color: #d9d9d9;
+  height: auto;
+  width: auto;
+}
+
+.g1 {
+  margin: 5px;
+  padding: 0;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  height: 400px;
+  width: 100%;
+  box-shadow: 5px 5px 10px black;
+  position: relative;
+  right: 5px;
+}
+
+.g1:hover {
+  border: 1px solid black;
+  border-radius: 10px;
+  transition: all 0.5s;
+  filter: brightness(1.2);
+  box-shadow: 5px 5px 10px black;
+}
+
+.contactInfo {
+  padding: 30px;
+}
+
+.copyright {
+  position: relative;
+  bottom: 60px;
+  right: 250px;
+}
+
+.alogo {
+  height: 40px;
+  margin: 10px;
+  position: relative;
+  top: 20px;
+}
+
+.fb_logo:hover {
+  transition: all 0.5s;
+  background-color: rgb(8, 85, 250);
+  border-radius: 5px;
+}
+
+.ig_logo:hover {
+  transition: all 0.5s;
+  background: linear-gradient(rgb(138, 100, 245), rgb(247, 99, 197), red, yellow);
+  border-radius: 5px;
+}
+
+.tt_logo:hover {
+  transition: all 0.5s;
+  background-color: rgb(9, 109, 240);
+  border-radius: 5px;
+}
+
+.fb_logo1:hover {
+  transition: all 0.5s;
+  background-color: rgb(8, 85, 250);
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.ig_logo1:hover {
+  transition: all 0.5s;
+  background: linear-gradient(rgb(138, 100, 245), rgb(247, 99, 197), red, yellow);
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.tt_logo1:hover {
+  transition: all 0.5s;
+  background-color: rgb(9, 109, 240);
+  border-radius: 5px;
+  padding: 2px;
+}
+.fb_logo2:hover {
+  transition: all 0.5s;
+  background-color: rgb(8, 85, 250);
+  border-radius: 5px;
+}
+.tt_logo2:hover {
+  transition: all 0.5s;
+  background-color: rgb(9, 109, 240);
+  border-radius: 5px;
+}
+.wa_logo2:hover {
+  transition: all 0.5s;
+  background-color: rgb(9, 240, 86);
+  border-radius: 5px;
+}
+.sc_logo2:hover {
+  transition: all 0.5s;
+  background-color: rgb(255, 251, 0);
+  border-radius: 5px;
+  color: black !important;
+}
+.ig_logo2:hover {
+  transition: all 0.5s;
+  background: linear-gradient(rgb(138, 100, 245), rgb(247, 99, 197), red, yellow);
+  border-radius: 10px;
+}
+
+.btn {
+  margin: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.dropdown {
+  position: relative;
+  bottom: 150px;
+  left: 50px;
+}
+
+.dropdown-item {
+  width: auto;
+  height: auto;
+}
+
+.dropdown-menu :hover {
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}

@@ -1,0 +1,58 @@
+.main {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+.h11 {
+  color: black;
+  font-size: 60px;
+  position: relative;
+  top: 50px;
+}
+.row123456 {
+  color: black;
+  font-size: 25px;
+  margin-bottom: 150px;
+  font-weight: bold;
+  position: relative;
+  left: 50px;
+  top: 100px;
+}
+.bg6 {
+  background-image: url("image/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: auto;
+  width: auto;
+}
+.row123411 {
+  font-size: 25px;
+  padding: 100px;
+  font-weight: bold;
+  position: relative;
+  left: 50px;
+  top: 100px;
+}
+
+.img5_11 {
+  opacity: 1;
+  padding: 10px;
+  height: 350px;
+  width: 300px;
+  position: relative;
+  bottom: 100px;
+}
+.img5_11:hover {
+  transition: all 0.5s;
+  filter: brightness(1.2);
+}
+.img5_12 {
+  padding: 10px;
+  height: 350px;
+  width: 300px;
+  position: relative;
+  bottom: 40px;
+}
+.img5_12:hover {
+  transition: all 0.5s;
+  filter: brightness(1.2);
+}

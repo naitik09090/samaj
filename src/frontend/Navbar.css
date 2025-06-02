@@ -1,0 +1,120 @@
+.nav-item {
+  margin-bottom: 10px;
+}
+
+.t_icon {
+  margin-right: 150px;
+}
+
+.home_Icon {
+  height: 40px;
+  width: 40px;
+  /* opacity: 0.0; */
+}
+.home_Icon:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+  opacity: 1.2;
+  cursor: pointer;
+}
+.about_Icon {
+  height: 40px;
+  width: 40px;
+  /* opacity: 0.0; */
+}
+.about_Icon:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+  opacity: 1.2;
+  cursor: pointer;
+}
+.admission_Icon {
+  height: 40px;
+  width: 40px;
+  /* opacity: 0.0; */
+}
+.admission_Icon:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+  opacity: 1.2;
+  cursor: pointer;
+}
+.contact_Icon {
+  height: 40px;
+  width: 40px;
+  /* opacity: 0.0; */
+}
+.contact_Icon:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.1);
+  opacity: 1.2;
+  cursor: pointer;
+}
+
+
+.Sign_Up{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.form-control{
+  width: 100%;
+  height: auto;
+}
+.form-label{
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+.form-control:focus{
+  border-color: #333;
+  box-shadow: 0 0 5px #333;
+}
+.form-control::placeholder{
+  color: #999;
+}
+.form-control::placeholder:focus{
+  color: #333;
+}
+.form-control::placeholder:hover{
+  color: #333;
+}
+.form-control::placeholder:active{
+  color: #333;
+}
+.form-control::placeholder:disabled{
+  color: #333;
+}
+.form-control::placeholder:invalid{
+  color: #333;
+}
+.form-control::placeholder:valid{
+  color: #333;
+}
+.form-control::placeholder:required{
+  color: #333;
+}
+.form-control::placeholder:optional{
+  color: #333;
+} 
+
+
+.nav-item1 :hover{
+  border-bottom: 3px solid white;
+}
+.nav-item1 li.active {
+  border-bottom: 3px solid white;
+  transform: translate3d( 0, -3px, 0);
+}
+.nav_1{
+  color: black;
+}
