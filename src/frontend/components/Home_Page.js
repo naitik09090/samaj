@@ -468,147 +468,57 @@ const Home_Page = () => {
         {/* Latest News */}
 
         <div className="container-fluid bg5" id="latest_news">
-          <div className="container-fluid cont">
+          {/* Section Heading */}
+          <div className="container cont">
             <div className="row" data-aos="fade-right">
-              <div className="col-md-12">
+              <div className="col-12">
                 <h1 className="LatestNews text-center text-dark">Latest News</h1>
               </div>
             </div>
-            <div className="row" data-aos="fade-right">
-              <div className="col-md-4 image-cont">
-                <img src={card2} alt="Image 1" className="f_card11" />
-                <div className="overlay">
-                  <h1 className="txt111 text-center">
-                    It is a long established fact that a reader will be distracted by the <br />
-                    readable content of a page when looking at its layout. The point.
-                    <br />
-                    <Link to={"/latest_news"}>
-                      <button className="txt112">Read More</button>
-                    </Link>
-                  </h1>
+
+            {/* First Row */}
+            <div className="row g-4 mt-4" data-aos="fade-right">
+              {[1, 2, 3].map((item, index) => (
+                <div key={index} className="col-12 col-sm-6 col-md-4 image-cont mb-4">
+                  <img src={card2} alt={`Image ${item}`} className="img-fluid f_card11" />
+                  <div className={`overlay${index > 0 ? index : ""}`}>
+                    <h1 className="txt111 text-center">
+                      It is a long established fact that a reader will be distracted by the <br />
+                      readable content of a page when looking at its layout. The point.
+                      <br />
+                      <Link to="/latest_news">
+                        <button className="txt112">Read More</button>
+                      </Link>
+                    </h1>
+                  </div>
                 </div>
-              </div>
-              <div className="col-md-4 image-cont">
-                <img src={card2} alt="Image 1" className="f_card011" />
-                <div className="overlay1">
-                  <h1 className="txt111 text-center">
-                    It is a long established fact that a reader will be distracted by the <br />
-                    readable content of a page when looking at its layout. The point.
-                    <br />
-                    <Link to={"/latest_news"}>
-                      <button className="txt112">Read More</button>
-                    </Link>
-                  </h1>
-                </div>
-              </div>
-              <div className="col-md-4 image-cont">
-                <img src={card2} alt="Image 1" className="f_card0011" />
-                <div className="overlay2">
-                  <h1 className="txt111 text-center">
-                    It is a long established fact that a reader will be distracted by the <br />
-                    readable content of a page when looking at its layout. The point.
-                    <br />
-                    <Link to={"/latest_news"}>
-                      <button className="txt112">Read More</button>
-                    </Link>
-                  </h1>
-                </div>
-              </div>
+              ))}
             </div>
-          </div>
-          <div className="container-fluid cont">
-            <div className="row" data-aos="fade-left">
-              <div className="col-md-4 image-cont">
-                <img src={card2} alt="Image 1" className="f_card11" />
-                <div className="overlay">
-                  <h1 className="txt111 text-center">
-                    It is a long established fact that a reader will be distracted by the <br />
-                    readable content of a page when looking at its layout. The point.
-                    <br />
-                    <Link to={"/latest_news"}>
-                      <button className="txt112">Read More</button>
-                    </Link>
-                  </h1>
+
+            {/* Second Row */}
+            <div className="row g-4 mt-4" data-aos="fade-left">
+              {[1, 2, 3].map((item, index) => (
+                <div key={index} className="col-12 col-sm-6 col-md-4 image-cont mb-4">
+                  <img src={card2} alt={`Image ${item}`} className="img-fluid f_card11" />
+                  <div className={`overlay${index > 0 ? index : ""}`}>
+                    <h1 className="txt111 text-center">
+                      It is a long established fact that a reader will be distracted by the <br />
+                      readable content of a page when looking at its layout. The point.
+                      <br />
+                      <Link to="/latest_news">
+                        <button className="txt112">Read More</button>
+                      </Link>
+                    </h1>
+                  </div>
                 </div>
-              </div>
-              <div className="col-md-4 image-cont">
-                <img src={card2} alt="Image 1" className="f_card011" />
-                <div className="overlay1">
-                  <h1 className="txt111 text-center">
-                    It is a long established fact that a reader will be distracted by the <br />
-                    readable content of a page when looking at its layout. The point.
-                    <br />
-                    <Link to={"/latest_news"}>
-                      <button className="txt112">Read More</button>
-                    </Link>
-                  </h1>
-                </div>
-              </div>
-              <div className="col-md-4 image-cont">
-                <img src={card2} alt="Image 1" className="f_card0011" />
-                <div className="overlay2">
-                  <h1 className="txt111 text-center">
-                    It is a long established fact that a reader will be distracted by the <br />
-                    readable content of a page when looking at its layout. The point.
-                    <br />
-                    <Link to={"/latest_news"}>
-                      <button className="txt112">Read More</button>
-                    </Link>
-                  </h1>
-                </div>
-              </div>
+              ))}
             </div>
-          </div>
-          {/* <div className="container-fluid">
-          <div className="col-md-12">
-            <div className="row" data-aos="fade-left">
-              <div className="col-md-4">
-                <img src={card2} alt="Image 1" className="f_card111 img-fluid" />
 
-                <h1 className="txt1111 text-center">
-                  It is a long established fact that a reader will be distracted by the <br />
-                  readable content of a page when looking at its layout. The point. <br />
-                  <Link to={"/latest_news"}>
-                    <button className="txt112">Read More</button>
-                  </Link>
-                </h1>
-              </div>
-              <div className="col-md-4">
-                <img src={card2} alt="Image 2" className="f_card111 img-fluid" />
-
-                <h1 className="txt1111 text-center">
-                  using Lorem Ipsum is that it has a more-or-less normal <br /> distribution
-                  letters, as opposed to using Content here, content here. <br />
-                  <Link to={"/latest_news"}>
-                    <button className="txt112">Read More</button>
-                  </Link>
-                </h1>
-              </div>
-              <div className="col-md-4">
-                <img src={card2} alt="Image 3" className="f_card111 img-fluid" />
-
-                <h1 className="txt1111 text-center">
-                  making it look like readable English. Many desktop publishing <br />
-                  packages and web page editors now use Lorem Ipsum. <br />{" "}
-                  <Link to={"/latest_news"}>
-                    <button className="txt112">Read More</button>
-                  </Link>
-                </h1>
-              </div>
-            </div>
-          </div>
-        </div> */}
-
-          <div className="container-fluid" data-aos="zoom-in">
-            <div className="row text-center" data-aos="fade-right">
-              <div className="col-md-12">
-                <Link to={"/latest_news"}>
-                  <button
-                    type="button"
-                    className="btn11 text-center"
-                    data-toggle="collapse"
-                    data-target="#demo"
-                  >
+            {/* Read More Button */}
+            <div className="row text-center mt-4" data-aos="zoom-in">
+              <div className="col-12">
+                <Link to="/latest_news">
+                  <button type="button" className="btn11">
                     <b>Read More</b>
                   </button>
                 </Link>
