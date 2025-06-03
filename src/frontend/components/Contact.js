@@ -124,8 +124,8 @@ const Contact = () => {
         <div className="container-fluid" data-aos="zoom-in-up">
           <div className="row">
             {/* Details */}
-
-            <div className="col-md-6">
+            <div className="col-md-1"></div>
+            <div className="col-md-5">
               <br />
               <b className="contact_કન્યા_છાત્રાલય">કન્યા છાત્રાલય</b> <br />
               <b className="p_કન્યા_છાત્રાલય">
@@ -149,21 +149,16 @@ const Contact = () => {
                 purus maximusipsum, a volutpat augue ipsum et eros.
               </b>
               <br />
-              <br />
-              <br />
-              <br />
             </div>
 
             {/* Form */}
 
-            <div className="col-md-6">
+            <div className="col-md-5">
               <br />
               <br />
               <form onSubmit={handleSubmit} className="form_Main">
                 <div className="row mb-3">
-                  <div className="col-md-6">
-                    <h2>Name(required)</h2>
-                  </div>
+                  <h2>Name(required)</h2>
                 </div>
                 <div className="row mb-3">
                   <div className="col">
@@ -231,47 +226,50 @@ const Contact = () => {
               </form>
             </div>
           </div>
+          <div className="col-md-1"></div>
         </div>
 
         {/* Map */}
 
         <div className="container-fluid" data-aos="zoom-in-down">
           <div className="row">
-            <div className="col-md-6 m_txt">
+            <div className="col-md-1"></div>
+            <div className="col-md-5 m_txt">
               <b>
                 <a href="">
-                  <img src={Location_icon} alt="" className="img_કન્યા_છાત્રાલય d-block" />{" "}
+                  <img src={Location_icon} alt="" className="img_કન્યા_છાત્રાલય d-block" />
+                  <b className="b_કન્યા_છાત્રાલય">
+                    E 310,Titanium City Center ,B/h IOC Petrol Pump, <br />
+                    100 Feet Rd, Satellite, Prahlad Nagar, Ahmedabad <br />
+                    Gujarat 380015
+                  </b>
                 </a>
-              </b>
-              <b className="b_કન્યા_છાત્રાલય">
-                E 310,Titanium City Center ,B/h IOC Petrol Pump, <br />
-                100 Feet Rd, Satellite, Prahlad Nagar, Ahmedabad <br />
-                Gujarat 380015
-              </b>
-              <b>
-                <a href="">
-                  <img src={Call_icon} alt="" className="img_કન્યા_છાત્રાલય d-block" />{" "}
-                </a>
-              </b>
-              <b className="b_કન્યા_છાત્રાલય">
-                +1 253 565 2365 <br /> Mon to Fri 9am to 6pm
               </b>
               <b>
                 <a href="">
-                  <img src={Mail_icon} alt="" className="img_કન્યા_છાત્રાલય d-block" />{" "}
+                  <img src={Call_icon} alt="" className="img_કન્યા_છાત્રાલય d-block" />
+                  <b className="b_કન્યા_છાત્રાલય">
+                    +1 253 565 2365 <br /> Mon to Fri 9am to 6pm
+                  </b>
                 </a>
               </b>
-              <b className="b_કન્યા_છાત્રાલય">
-                support@hoxton.com <br /> Send us your query anytime!
+              <b>
+                <a href="">
+                  <img src={Mail_icon} alt="" className="img_કન્યા_છાત્રાલય d-block" />
+                  <b className="b_કન્યા_છાત્રાલય">
+                    support@hoxton.com <br /> Send us your query anytime!
+                  </b>
+                </a>
               </b>
             </div>
-            <div className="col-md-6">
+            <div className="col-md-5">
               <iframe
                 className="map"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18302.748293324257!2d72.872099813405!3d21.245579736758803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1747654806410!5m2!1sen!2sin"
                 loading="lazy"
               ></iframe>
             </div>
+            <div className="col-md-1"></div>
           </div>
         </div>
 

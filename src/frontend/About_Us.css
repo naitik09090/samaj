@@ -38,9 +38,6 @@
 .row123 {
   font-size: 25px;
   font-weight: bold;
-  position: relative;
-  left: 50px;
-  top: 100px;
 }
 
 .row1234 {
@@ -61,7 +58,6 @@
   color: black;
   position: relative;
   top: 80px;
-  left: 80px;
 }
 
 .wifi {
@@ -70,8 +66,8 @@
   background: linear-gradient( to right, #1b0f019f, #1f1800 , #1b0f019f);
   border-radius: 10px;
   position: relative;
-  bottom: 50px;
-  left: 140px;
+  bottom: 45px;
+  left: 100px;
 }
 
 .wifi:hover {
@@ -83,17 +79,18 @@
 }
 
 .wifitxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  position: relative;
-  bottom: 30px;
 }
 
 .p1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   font-size: 16px;
-  position: relative;
-  bottom: 20px;
-  font-weight: bold;
 }
 
 .food {
@@ -102,8 +99,8 @@
   background: linear-gradient( to right, #1b0f019f, #1f1800 , #1b0f019f);
   border-radius: 10px;
   position: relative;
-  bottom: 50px;
-  left: 140px;
+  bottom: 45px;
+  left: 100px;
 }
 
 .food:hover {
@@ -116,9 +113,10 @@
 }
 
 .foodtxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  position: relative;
-  bottom: 30px;
 }
 
 .security {
@@ -127,8 +125,8 @@
   background: linear-gradient( to right, #1b0f019f, #1f1800 , #1b0f019f);
   border-radius: 10px;
   position: relative;
-  bottom: 50px;
-  left: 140px;
+  bottom: 45px;
+  left: 100px;
 }
 
 .security:hover {
@@ -140,9 +138,10 @@
 }
 
 .securitytxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  position: relative;
-  bottom: 30px;
 }
 
 .library {
@@ -151,8 +150,8 @@
   background: linear-gradient( to right, #1b0f019f, #1f1800 , #1b0f019f);
   border-radius: 10px;
   position: relative;
-  bottom: 50px;
-  left: 140px;
+  bottom: 45px;
+  left: 100px;
 }
 
 .library:hover {
@@ -164,19 +163,17 @@
 }
 
 .librarytxt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  position: relative;
-  bottom: 30px;
 }
 
 .card {
   opacity: 0.9;
   height: auto;
   width: auto;
-  margin: 20px;
-  width: 400px !important;
-  position: relative;
-  bottom: 100px;
+  margin: 10px;
 }
 
 .card:hover {
@@ -189,6 +186,10 @@
   background: #d9d9d9;
   height: auto;
   width: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .txtcard {
@@ -203,9 +204,9 @@
   opacity: 1;
   padding: 10px;
   height: 350px;
-  width: 250px;
+  width: 300px;
   position: relative;
-  left: 60px;
+  right: 100px;
   bottom: 110px;
 }
 
@@ -217,10 +218,10 @@
 .img5_1 {
   padding: 10px;
   height: 350px;
-  width: 250px;
+  width: 300px;
   position: relative;
-  right: 140px;
-  bottom: 80px;
+  right: 100px;
+  bottom: 50px;
 }
 
 .img5_1:hover {

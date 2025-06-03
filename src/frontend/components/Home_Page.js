@@ -8,10 +8,10 @@ import card2 from "../image/card2.jpg";
 import fb1 from "../image/fb1.png";
 import ig1 from "../image/ig1.png";
 import tt1 from "../image/tt1.png";
+import up from "../image/up.png";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import { Link } from "react-router-dom";
-import up from "../image/up.png";
 // import icon1 from "../image/icon2.png";
 
 const Home_Page = () => {

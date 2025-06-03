@@ -110,7 +110,8 @@ const About_Us = () => {
 
         <div className="container-fluid" data-aos="fade-up">
           <div className="row row12345">
-            <div className="txt122 col-md-6">
+            <div className="col-md-1"></div>
+            <div className="txt122 col-md-5">
               Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
               has been the industry s standard dummy text ever since the 1500s, when an unknown
               printer took a galley of type and scrambled it to make a type specimen book.Contrary
@@ -134,7 +135,7 @@ const About_Us = () => {
           <div className="row row123">
             {/* wifi */}
 
-            <div className="col-md-3 card bg-dark">
+            <div className="col-md-3 col-sm-12 card bg-dark">
               <img src={wifi} alt="" className="wifi" />
               <div className="wifitxt text-white">Unlimited Wifi</div>
               <div className="p1 text-white">
@@ -150,7 +151,7 @@ const About_Us = () => {
 
             {/* food */}
 
-            <div className="col-md-3 card bg-dark">
+            <div className="col-md-3 col-sm-12 card bg-dark">
               <img src={food} alt="" className="food" />
               <b className="foodtxt text-white">Food</b>
               <p className="p1 text-white">
@@ -167,7 +168,7 @@ const About_Us = () => {
 
             {/* security */}
 
-            <div className="col-md-3 card bg-dark">
+            <div className="col-md-3 col-sm-12 card bg-dark">
               <img src={security1} alt="" className="security" />
               <b className="securitytxt text-white">Security</b>
               <p className="p1 text-white">
@@ -184,7 +185,7 @@ const About_Us = () => {
 
             {/* library */}
 
-            <div className="col-md-3 card bg-dark">
+            <div className="col-md-3 col-sm-12 card bg-dark">
               <img src={library} alt="" className="library" />
               <b className="librarytxt text-white">Library</b>
               <p className="p1 text-white">
