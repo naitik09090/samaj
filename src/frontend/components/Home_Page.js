@@ -471,113 +471,115 @@ const Home_Page = () => {
 
         {/* Latest News */}
 
-        <div className="container-fluid bg5 d-flex justify-content-center" id="latest_news">
-          <div className="container-fluid cont">
-            <div className="row" data-aos="fade-right">
-              <div className="col-12">
-                <h1 className="LatestNews text-center text-dark">Latest News</h1>
+        <div className="container-fluid bg5" id="latest_news">
+          <div className="row" data-aos="fade-right">
+            <div className="col-md-12">
+              <h1 className="LatestNews text-center text-dark">Latest News</h1>
+            </div>
+          </div>
+
+          {/* ROW 1 */}
+          <div className="row" data-aos="fade-right">
+            <div className="col-sm-12 col-md-1"></div>
+            <div className="col-sm-12 col-md-3 image-cont">
+              <img src={card2} alt="Image 1" className="f_card11" />
+              <div className="overlay">
+                <h1 className="txt111 text-center">
+                  It is a long established fact that a reader will be distracted by the <br />
+                  readable content of a page when looking at its layout. The point.
+                  <br />
+                  <Link to="/latest_news">
+                    <button className="txt112">Read More</button>
+                  </Link>
+                </h1>
               </div>
             </div>
 
-            {/* ROW 1 */}
-            <div className="row" data-aos="fade-right">
-              <div className="col-12 col-sm-12 col-md-4 image-cont">
-                <img src={card2} alt="Image 1" className="f_card11" />
-                <div className="overlay">
-                  <h1 className="txt111 text-center">
-                    It is a long established fact that a reader will be distracted by the <br />
-                    readable content of a page when looking at its layout. The point.
-                    <br />
-                    <Link to="/latest_news">
-                      <button className="txt112">Read More</button>
-                    </Link>
-                  </h1>
-                </div>
-              </div>
-
-              <div className="col-12 col-sm-12 col-md-4 image-cont">
-                <img src={card2} alt="Image 2" className="f_card11" />
-                <div className="overlay">
-                  <h1 className="txt111 text-center">
-                    It is a long established fact that a reader will be distracted by the <br />
-                    readable content of a page when looking at its layout. The point.
-                    <br />
-                    <Link to="/latest_news">
-                      <button className="txt112">Read More</button>
-                    </Link>
-                  </h1>
-                </div>
-              </div>
-
-              <div className="col-12 col-sm-12 col-md-4 image-cont">
-                <img src={card2} alt="Image 3" className="f_card11" />
-                <div className="overlay">
-                  <h1 className="txt111 text-center">
-                    It is a long established fact that a reader will be distracted by the <br />
-                    readable content of a page when looking at its layout. The point.
-                    <br />
-                    <Link to="/latest_news">
-                      <button className="txt112">Read More</button>
-                    </Link>
-                  </h1>
-                </div>
+            <div className="col-sm-12 col-md-4 image-cont">
+              <img src={card2} alt="Image 2" className="f_card11" />
+              <div className="overlay">
+                <h1 className="txt111 text-center">
+                  It is a long established fact that a reader will be distracted by the <br />
+                  readable content of a page when looking at its layout. The point.
+                  <br />
+                  <Link to="/latest_news">
+                    <button className="txt112">Read More</button>
+                  </Link>
+                </h1>
               </div>
             </div>
 
-            {/* ROW 2 */}
-            <div className="row" data-aos="fade-right">
-              <div className="col-12 col-sm-12 col-md-4 image-cont">
-                <img src={card2} alt="Image 4" className="f_card11" />
-                <div className="overlay">
-                  <h1 className="txt111 text-center">
-                    It is a long established fact that a reader will be distracted by the <br />
-                    readable content of a page when looking at its layout. The point.
-                    <br />
-                    <Link to="/latest_news">
-                      <button className="txt112">Read More</button>
-                    </Link>
-                  </h1>
-                </div>
+            <div className="col-sm-12 col-md-3 image-cont">
+              <img src={card2} alt="Image 3" className="f_card11" />
+              <div className="overlay">
+                <h1 className="txt111 text-center">
+                  It is a long established fact that a reader will be distracted by the <br />
+                  readable content of a page when looking at its layout. The point.
+                  <br />
+                  <Link to="/latest_news">
+                    <button className="txt112">Read More</button>
+                  </Link>
+                </h1>
               </div>
+            </div>
+            <div className="col-sm-12 col-md-1"></div>
+          </div>
 
-              <div className="col-12 col-sm-12 col-md-4 image-cont">
-                <img src={card2} alt="Image 5" className="f_card11" />
-                <div className="overlay">
-                  <h1 className="txt111 text-center">
-                    It is a long established fact that a reader will be distracted by the <br />
-                    readable content of a page when looking at its layout. The point.
-                    <br />
-                    <Link to="/latest_news">
-                      <button className="txt112">Read More</button>
-                    </Link>
-                  </h1>
-                </div>
-              </div>
-
-              <div className="col-12 col-sm-12 col-md-4 image-cont">
-                <img src={card2} alt="Image 6" className="f_card11" />
-                <div className="overlay">
-                  <h1 className="txt111 text-center">
-                    It is a long established fact that a reader will be distracted by the <br />
-                    readable content of a page when looking at its layout. The point.
-                    <br />
-                    <Link to="/latest_news">
-                      <button className="txt112">Read More</button>
-                    </Link>
-                  </h1>
-                </div>
+          {/* ROW 2 */}
+          <div className="row" data-aos="fade-right">
+            <div className="col-sm-12 col-md-1"></div>
+            <div className="col-sm-12 col-md-3 image-cont">
+              <img src={card2} alt="Image 4" className="f_card11" />
+              <div className="overlay">
+                <h1 className="txt111 text-center">
+                  It is a long established fact that a reader will be distracted by the <br />
+                  readable content of a page when looking at its layout. The point.
+                  <br />
+                  <Link to="/latest_news">
+                    <button className="txt112">Read More</button>
+                  </Link>
+                </h1>
               </div>
             </div>
 
-            {/* READ MORE BUTTON */}
-            <div className="row text-center mt-4" data-aos="zoom-in">
-              <div className="col-md-12">
-                <Link to="/latest_news">
-                  <button type="button" className="btn11 text-center">
-                    <b>Read More</b>
-                  </button>
-                </Link>
+            <div className="col-sm-12 col-md-4 image-cont">
+              <img src={card2} alt="Image 5" className="f_card11" />
+              <div className="overlay">
+                <h1 className="txt111 text-center">
+                  It is a long established fact that a reader will be distracted by the <br />
+                  readable content of a page when looking at its layout. The point.
+                  <br />
+                  <Link to="/latest_news">
+                    <button className="txt112">Read More</button>
+                  </Link>
+                </h1>
               </div>
+            </div>
+
+            <div className="col-sm-12 col-md-3 image-cont">
+              <img src={card2} alt="Image 6" className="f_card11" />
+              <div className="overlay">
+                <h1 className="txt111 text-center">
+                  It is a long established fact that a reader will be distracted by the <br />
+                  readable content of a page when looking at its layout. The point.
+                  <br />
+                  <Link to="/latest_news">
+                    <button className="txt112">Read More</button>
+                  </Link>
+                </h1>
+              </div>
+            </div>
+            <div className="col-sm-12 col-md-1"></div>
+          </div>
+
+          {/* READ MORE BUTTON */}
+          <div className="row text-center" data-aos="zoom-in">
+            <div className="col-md-12">
+              <Link to="/latest_news">
+                <button type="button" className="btn11 text-center">
+                  <b>Read More</b>
+                </button>
+              </Link>
             </div>
           </div>
         </div>

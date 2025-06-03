@@ -159,13 +159,13 @@ img {
 .btn1:hover {
   transition: all 0.5s;
   font-weight: 900;
-  background:transparent;
+  background: transparent;
   color: #000000;
   border-radius: 50%;
 }
 
 .btn11 {
-  border: 1px solid black;
+  border: 1px solid transparent;
   border-radius: 5px;
   width: 230px;
   padding: 10px;
@@ -175,11 +175,12 @@ img {
   justify-content: center;
   text-align: center;
   align-items: center;
+  margin-bottom: 30px;
 }
 
 .btn11:hover {
   transition: all 0.5s;
-  background:radial-gradient( #000000, #ffffff) ;
+  background: radial-gradient(#000000, #ffffff);
   color: white;
   border: 1px solid transparent;
   border-radius: 50%;
@@ -199,7 +200,7 @@ img {
   transition: all 0.5s;
   background: transparent;
   color: white;
-  border:1px solid white;
+  border: 1px solid white;
   border-radius: 50%;
 }
 
@@ -275,6 +276,7 @@ img {
   margin: 10px;
   margin-bottom: 40px;
 }
+
 .fb12 {
   height: 40px;
   width: 40px;
@@ -335,40 +337,39 @@ img {
 .image-cont img {
   width: 100%;
   height: auto;
-  object-fit: cover;
 }
 
-/* Responsive overlays */
-.overlay{
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
-  padding: 15px;
+  bottom: 0;
+  right: 0;
   background-color: burlywood;
   overflow: hidden;
-  width: 100%;
+  width: 510px !important;
+  height: auto;
   transition: .5s ease;
   color: white;
   opacity: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  transition: background-color 0.3s ease;
 }
+
 .image-cont {
   position: relative;
-  width: 594px;
+  width: 100%;
+  height: 100%;
 }
+
 .image-cont:hover .overlay {
   opacity: 0.8;
-  height: 382px;
-  width: 570px;
+  height: 100%;
+  width: auto;
   bottom: 0;
-  margin-left: 12px;
+  margin-left: 10px;
 }
+
 .bg5 {
-  background-image:url('./image/bg3.jpg');
+  background-image: url('./image/bg3.jpg');
   height: auto;
   width: auto;
 }
@@ -377,7 +378,9 @@ img {
   white-space: nowrap;
   color: black;
   line-height: 1.5;
-  font-size: 18px;
+  font-size: 15px;
+  height: auto;
+  width: auto;
   position: absolute;
   overflow: hidden;
   top: 55%;
@@ -388,11 +391,12 @@ img {
 
 .image-cont {
   position: relative;
-  width: 594px;
+  width: 530px;
 }
-
-
-
+.f_card11{
+  height: auto;
+  width: auto;
+}
 .txt1111 {
   background-color: #333333;
   color: white;
@@ -698,14 +702,16 @@ a {
   }
 }
 
-.h21{
+.h21 {
   color: black;
   padding: 40px;
 }
-.line{
+
+.line {
   text-decoration-line: line-through;
 }
-.s_Details{
+
+.s_Details {
   background-color: #d9d9d9;
   color: #000000;
   border-radius: 10px;
@@ -715,27 +721,29 @@ a {
   justify-content: center;
   align-items: center;
 }
-.s_Details:hover{
+
+.s_Details:hover {
   background: linear-gradient(to right, #0286df, #f8b76d);
   color: #ffffff
 }
+
 ::-webkit-scrollbar {
   width: 10px;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey; 
+  box-shadow: inset 0 0 5px grey;
   border-radius: 5px;
 }
- 
+
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to right,#0286df, #f8b76d); 
+  background: linear-gradient(to right, #0286df, #f8b76d);
   border-radius: 10px;
 }
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: transparent; 
+  background: transparent;
 }
