@@ -113,7 +113,7 @@ img {
 
 /* Ensure images are responsive */
 .img4 {
-  width: auto;
+  width: 300px;
   height: 350px;
   position: relative;
   right: 150px;
@@ -121,7 +121,7 @@ img {
 }
 
 .img6 {
-  width: auto;
+  width: 300px;
   height: 350px;
   position: absolute;
   left: 100px;
@@ -672,9 +672,12 @@ a {
 }
 
 .top-btn-img {
-  height: 80px;
-  width: 80px;
+  height: 50px;
+  width: 50px;
   opacity: 0.4;
+  position: relative;
+  top: 80px;
+  left: 60px;
 }
 
 .top-btn {
