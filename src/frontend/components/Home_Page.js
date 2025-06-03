@@ -33,10 +33,10 @@ const Home_Page = () => {
   };
   return (
     <>
+      <div className="top-btn" onClick={GoToBtn}>
+        <img src={up} className="top-btn-img"></img>
+      </div>
       <div className="container-fluid main">
-        <div className="top-btn" onClick={GoToBtn}>
-          <img src={up} className="top-btn-img"></img>
-        </div>
         {/* Slider Three image */}
         {/* scrolldown scrolldown-final __web-inspector-hide-shortcut__ d-block" id="scrolldown" */}
 
@@ -135,14 +135,14 @@ const Home_Page = () => {
             </div>
           </div> */}
           <div className="row">
-            <div className="col-md-3 d-block">
+            <div className="col-sm-12 col-md-3">
               <img src={img4} className="img6 mx-auto" alt="Paris" />
             </div>
-            <div className="col-md-3 d-block">
+            <div className="col-sm-12 col-md-3">
               <img src={img4} className="img4 mx-auto" alt="Paris" />
             </div>
             <div className="col-md-6">
-              <p className="p d-block">
+              <p className="p">
                 Lorem Ipsum is simply dummy text of the printing and typesetting <br />
                 industry. Lorem Ipsum has been the industry s standard dummy
                 <br />
