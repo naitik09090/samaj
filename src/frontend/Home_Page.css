@@ -347,7 +347,7 @@ img {
   right: 0;
   background-color: burlywood;
   overflow: hidden;
-  width: 510px !important;
+  width: auto;
   height: auto;
   transition: .5s ease;
   color: white;
