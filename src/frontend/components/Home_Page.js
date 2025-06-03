@@ -125,11 +125,15 @@ const Home_Page = () => {
 
         <div className="container-fluid bg1" data-aos="fade-down" id="an_ideology">
           <div className="row">
-            <h1 className="An_Ideology col-md-12 text-center">An Ideology</h1>
+            <div className="col-md-12">
+              <h1 className="An_Ideology col-md-12 text-center">An Ideology</h1>
+            </div>
           </div>
-          <div className="row">
-            <div className="bar"></div>
-          </div>
+          {/* <div className="row">
+            <div className="col-md-12">
+              <div className="bar"></div>
+            </div>
+          </div> */}
           <div className="row">
             <div className="col-md-3 d-block">
               <img src={img4} className="img6 mx-auto" alt="Paris" />
@@ -467,58 +471,109 @@ const Home_Page = () => {
 
         {/* Latest News */}
 
-        <div className="container-fluid bg5" id="latest_news">
-          {/* Section Heading */}
-          <div className="container cont">
+        <div className="container-fluid bg5 d-flex justify-content-center" id="latest_news">
+          <div className="container-fluid cont">
             <div className="row" data-aos="fade-right">
               <div className="col-12">
                 <h1 className="LatestNews text-center text-dark">Latest News</h1>
               </div>
             </div>
 
-            {/* First Row */}
-            <div className="row g-4 mt-4" data-aos="fade-right">
-              {[1, 2, 3].map((item, index) => (
-                <div key={index} className="col-12 col-sm-6 col-md-4 image-cont mb-4">
-                  <img src={card2} alt={`Image ${item}`} className="img-fluid f_card11" />
-                  <div className={`overlay${index > 0 ? index : ""}`}>
-                    <h1 className="txt111 text-center">
-                      It is a long established fact that a reader will be distracted by the <br />
-                      readable content of a page when looking at its layout. The point.
-                      <br />
-                      <Link to="/latest_news">
-                        <button className="txt112">Read More</button>
-                      </Link>
-                    </h1>
-                  </div>
+            {/* ROW 1 */}
+            <div className="row" data-aos="fade-right">
+              <div className="col-12 col-sm-12 col-md-4 image-cont">
+                <img src={card2} alt="Image 1" className="f_card11" />
+                <div className="overlay">
+                  <h1 className="txt111 text-center">
+                    It is a long established fact that a reader will be distracted by the <br />
+                    readable content of a page when looking at its layout. The point.
+                    <br />
+                    <Link to="/latest_news">
+                      <button className="txt112">Read More</button>
+                    </Link>
+                  </h1>
                 </div>
-              ))}
+              </div>
+
+              <div className="col-12 col-sm-12 col-md-4 image-cont">
+                <img src={card2} alt="Image 2" className="f_card11" />
+                <div className="overlay">
+                  <h1 className="txt111 text-center">
+                    It is a long established fact that a reader will be distracted by the <br />
+                    readable content of a page when looking at its layout. The point.
+                    <br />
+                    <Link to="/latest_news">
+                      <button className="txt112">Read More</button>
+                    </Link>
+                  </h1>
+                </div>
+              </div>
+
+              <div className="col-12 col-sm-12 col-md-4 image-cont">
+                <img src={card2} alt="Image 3" className="f_card11" />
+                <div className="overlay">
+                  <h1 className="txt111 text-center">
+                    It is a long established fact that a reader will be distracted by the <br />
+                    readable content of a page when looking at its layout. The point.
+                    <br />
+                    <Link to="/latest_news">
+                      <button className="txt112">Read More</button>
+                    </Link>
+                  </h1>
+                </div>
+              </div>
             </div>
 
-            {/* Second Row */}
-            <div className="row g-4 mt-4" data-aos="fade-left">
-              {[1, 2, 3].map((item, index) => (
-                <div key={index} className="col-12 col-sm-6 col-md-4 image-cont mb-4">
-                  <img src={card2} alt={`Image ${item}`} className="img-fluid f_card11" />
-                  <div className={`overlay${index > 0 ? index : ""}`}>
-                    <h1 className="txt111 text-center">
-                      It is a long established fact that a reader will be distracted by the <br />
-                      readable content of a page when looking at its layout. The point.
-                      <br />
-                      <Link to="/latest_news">
-                        <button className="txt112">Read More</button>
-                      </Link>
-                    </h1>
-                  </div>
+            {/* ROW 2 */}
+            <div className="row" data-aos="fade-right">
+              <div className="col-12 col-sm-12 col-md-4 image-cont">
+                <img src={card2} alt="Image 4" className="f_card11" />
+                <div className="overlay">
+                  <h1 className="txt111 text-center">
+                    It is a long established fact that a reader will be distracted by the <br />
+                    readable content of a page when looking at its layout. The point.
+                    <br />
+                    <Link to="/latest_news">
+                      <button className="txt112">Read More</button>
+                    </Link>
+                  </h1>
                 </div>
-              ))}
+              </div>
+
+              <div className="col-12 col-sm-12 col-md-4 image-cont">
+                <img src={card2} alt="Image 5" className="f_card11" />
+                <div className="overlay">
+                  <h1 className="txt111 text-center">
+                    It is a long established fact that a reader will be distracted by the <br />
+                    readable content of a page when looking at its layout. The point.
+                    <br />
+                    <Link to="/latest_news">
+                      <button className="txt112">Read More</button>
+                    </Link>
+                  </h1>
+                </div>
+              </div>
+
+              <div className="col-12 col-sm-12 col-md-4 image-cont">
+                <img src={card2} alt="Image 6" className="f_card11" />
+                <div className="overlay">
+                  <h1 className="txt111 text-center">
+                    It is a long established fact that a reader will be distracted by the <br />
+                    readable content of a page when looking at its layout. The point.
+                    <br />
+                    <Link to="/latest_news">
+                      <button className="txt112">Read More</button>
+                    </Link>
+                  </h1>
+                </div>
+              </div>
             </div>
 
-            {/* Read More Button */}
+            {/* READ MORE BUTTON */}
             <div className="row text-center mt-4" data-aos="zoom-in">
-              <div className="col-12">
+              <div className="col-md-12">
                 <Link to="/latest_news">
-                  <button type="button" className="btn11">
+                  <button type="button" className="btn11 text-center">
                     <b>Read More</b>
                   </button>
                 </Link>
@@ -526,8 +581,7 @@ const Home_Page = () => {
             </div>
           </div>
         </div>
-
-        {/* End Point */}
+        {/* footer */}
 
         <div className="container-fluid bg-dark text-light" data-aos="zoom-in-down">
           <div className="row">
