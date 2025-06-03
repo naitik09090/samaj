@@ -339,9 +339,7 @@ img {
 }
 
 /* Responsive overlays */
-.overlay,
-.overlay1,
-.overlay2 {
+.overlay{
   position: absolute;
   top: 0;
   left: 0;
