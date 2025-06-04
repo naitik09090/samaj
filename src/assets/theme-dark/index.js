@@ -40,7 +40,6 @@ import listItemText from "assets/theme-dark/components/list/listItemText";
 import card from "assets/theme-dark/components/card";
 import cardMedia from "assets/theme-dark/components/card/cardMedia";
 import cardContent from "assets/theme-dark/components/card/cardContent";
-import button from "assets/theme-dark/components/button";
 import iconButton from "assets/theme-dark/components/iconButton";
 import input from "assets/theme-dark/components/form/input";
 import inputLabel from "assets/theme-dark/components/form/inputLabel";

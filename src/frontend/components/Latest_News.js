@@ -35,7 +35,7 @@ const Home_Page = () => {
             {/* ROW 1 */}
             <div className="row" data-aos="fade-right">
               <div className="col-12 col-sm-12 col-md-4 image-cont">
-                <img src={card2} alt="Image 1" className="f_card11" />
+                <img src={card2} alt=" " className="f_card11" />
                 <div className="overlay">
                   <h1 className="txt111 text-center">
                     It is a long established fact that a reader will be distracted by the <br />
@@ -49,7 +49,7 @@ const Home_Page = () => {
               </div>
 
               <div className="col-12 col-sm-12 col-md-4 image-cont">
-                <img src={card2} alt="Image 2" className="f_card11" />
+                <img src={card2} alt=" " className="f_card11" />
                 <div className="overlay">
                   <h1 className="txt111 text-center">
                     It is a long established fact that a reader will be distracted by the <br />
@@ -63,7 +63,7 @@ const Home_Page = () => {
               </div>
 
               <div className="col-12 col-sm-12 col-md-4 image-cont">
-                <img src={card2} alt="Image 3" className="f_card11" />
+                <img src={card2} alt=" " className="f_card11" />
                 <div className="overlay">
                   <h1 className="txt111 text-center">
                     It is a long established fact that a reader will be distracted by the <br />
@@ -80,7 +80,7 @@ const Home_Page = () => {
             {/* ROW 2 */}
             <div className="row" data-aos="fade-right">
               <div className="col-12 col-sm-12 col-md-4 image-cont">
-                <img src={card2} alt="Image 4" className="f_card11" />
+                <img src={card2} alt=" " className="f_card11" />
                 <div className="overlay">
                   <h1 className="txt111 text-center">
                     It is a long established fact that a reader will be distracted by the <br />
@@ -94,7 +94,7 @@ const Home_Page = () => {
               </div>
 
               <div className="col-12 col-sm-12 col-md-4 image-cont">
-                <img src={card2} alt="Image 5" className="f_card11" />
+                <img src={card2} alt=" " className="f_card11" />
                 <div className="overlay">
                   <h1 className="txt111 text-center">
                     It is a long established fact that a reader will be distracted by the <br />
@@ -108,7 +108,7 @@ const Home_Page = () => {
               </div>
 
               <div className="col-12 col-sm-12 col-md-4 image-cont">
-                <img src={card2} alt="Image 6" className="f_card11" />
+                <img src={card2} alt=" " className="f_card11" />
                 <div className="overlay">
                   <h1 className="txt111 text-center">
                     It is a long established fact that a reader will be distracted by the <br />

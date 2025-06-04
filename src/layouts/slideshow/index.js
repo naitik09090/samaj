@@ -11,7 +11,7 @@ import {
   DialogContent,
   DialogActions,
 } from "@mui/material";
-import { useTheme } from "@mui/material/styles";
+// import { useTheme } from "@mui/material/styles";
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
 // MUI Components
@@ -23,7 +23,7 @@ function Slideshow() {
   const [openUpload, setOpenUpload] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
   const [uploadedImages, setUploadedImages] = useState([]); // 🆕 Store uploaded images
-  const theme = useTheme();
+  // const theme = useTheme();
 
   const handleClickOpen = () => {
     setOpenUpload(true);

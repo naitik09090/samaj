@@ -5,7 +5,7 @@ import { Card, Grid, Avatar, TextField, Typography, Button, Divider } from "@mui
 import MDBox from "components/MDBox";
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
+// import Footer from "examples/Footer";
 
 function Overview() {
   const [profile, setProfile] = useState({

@@ -119,7 +119,7 @@ const Home_Page = () => {
         <div className="container-fluid bg1" data-aos="fade-down" id="an_ideology">
           <div className="row">
             <div className="col-md-12">
-              <h1 className="An_Ideology col-md-12 text-center">An Ideology</h1>
+              <h1 className="An_Ideology text-center">An Ideology</h1>
             </div>
           </div>
           {/* <div className="row">
@@ -207,7 +207,7 @@ const Home_Page = () => {
                 <div className="row" data-aos="fade-up">
                   <div className="col-md-4">
                     <Link to="/admission_surat">
-                      <img src={card2} alt="Image 1" className=" f_card1 img-fluid" />
+                      <img src={card2} alt=" " className=" f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center ">
                       આહીર શૈક્ષણિક ભવન <br /> સુરત
@@ -215,7 +215,7 @@ const Home_Page = () => {
                   </div>
                   <div className="col-md-4">
                     <Link to="/admission_Ahmedabad">
-                      <img src={card2} alt="Image 2" className="f_card1 img-fluid" />
+                      <img src={card2} alt=" " className="f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center">
                       કન્યા છાત્રાલય <br /> અહમદાબાદ
@@ -223,7 +223,7 @@ const Home_Page = () => {
                   </div>
                   <div className="col-md-4">
                     <Link to="/admission_surat1">
-                      <img src={card2} alt="Image 3" className="f_card1 img-fluid" />
+                      <img src={card2} alt=" " className="f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center">
                       કન્યા છાત્રાલય <br /> સુરત
@@ -237,7 +237,7 @@ const Home_Page = () => {
                 <div className="row" data-aos="fade-up">
                   <div className="col-md-4">
                     <Link to="/admission_surat">
-                      <img src={card2} alt="Image 4" className=" f_card1 img-fluid" />
+                      <img src={card2} alt=" " className=" f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center">
                       આહીર શૈક્ષણિક ભવન <br /> સુરત
@@ -245,7 +245,7 @@ const Home_Page = () => {
                   </div>
                   <div className="col-md-4">
                     <Link to="/admission_Ahmedabad">
-                      <img src={card2} alt="Image 5" className="f_card1 img-fluid" />
+                      <img src={card2} alt=" " className="f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center">
                       કન્યા છાત્રાલય <br /> અહમદાબાદ
@@ -253,7 +253,7 @@ const Home_Page = () => {
                   </div>
                   <div className="col-md-4">
                     <Link to="/admission_surat1">
-                      <img src={card2} alt="Image 6" className="f_card1 img-fluid" />
+                      <img src={card2} alt=" " className="f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center">
                       કન્યા છાત્રાલય <br /> સુરત
@@ -267,7 +267,7 @@ const Home_Page = () => {
                 <div className="row" data-aos="fade-up">
                   <div className="col-md-4">
                     <Link to="/admission_Ahmedabad">
-                      <img src={card2} alt="Image 7" className="f_card1 img-fluid" />
+                      <img src={card2} alt=" " className="f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center">
                       કન્યા છાત્રાલય <br /> અહમદાબાદ
@@ -275,7 +275,7 @@ const Home_Page = () => {
                   </div>
                   <div className="col-md-4">
                     <Link to="/admission_surat1">
-                      <img src={card2} alt="Image 8" className="f_card1 img-fluid" />
+                      <img src={card2} alt=" " className="f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center">
                       કન્યા છાત્રાલય <br /> સુરત
@@ -283,7 +283,7 @@ const Home_Page = () => {
                   </div>
                   <div className="col-md-4">
                     <Link to="/admission_surat">
-                      <img src={card2} alt="Image 9" className=" f_card1 img-fluid" />
+                      <img src={card2} alt=" " className=" f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center">
                       આહીર શૈક્ષણિક ભવન <br /> સુરત
@@ -320,7 +320,7 @@ const Home_Page = () => {
                 <div className="row" data-aos="fade-up">
                   <div className="col-md-4">
                     <Link to="/admission_rajkot">
-                      <img src={card2} alt="Image 10" className="f_card1 img-fluid" />
+                      <img src={card2} alt=" " className="f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center">
                       આહીર શૈક્ષણિક ભવન <br /> રાજકોટ
@@ -328,7 +328,7 @@ const Home_Page = () => {
                   </div>
                   <div className="col-md-4">
                     <Link to="/admission_dwarka">
-                      <img src={card2} alt="Image 11" className="f_card1 img-fluid" />
+                      <img src={card2} alt=" " className="f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center">
                       આહીર શૈક્ષણિક ભવન <br /> દ્વારકા
@@ -336,7 +336,7 @@ const Home_Page = () => {
                   </div>
                   <div className="col-md-4">
                     <Link to="/admission_bhavnager">
-                      <img src={card2} alt="Image 12" className="f_card1 img-fluid" />
+                      <img src={card2} alt=" " className="f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center">
                       આહીર શૈક્ષણિક ભવન <br /> ભાવનગર
@@ -350,7 +350,7 @@ const Home_Page = () => {
                 <div className="row" data-aos="fade-up">
                   <div className="col-md-4">
                     <Link to="/admission_rajkot">
-                      <img src={card2} alt="Image 13" className="f_card1 img-fluid" />
+                      <img src={card2} alt=" " className="f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center">
                       આહીર શૈક્ષણિક ભવન <br /> રાજકોટ
@@ -358,7 +358,7 @@ const Home_Page = () => {
                   </div>
                   <div className="col-md-4">
                     <Link to="/admission_dwarka">
-                      <img src={card2} alt="Image 14" className="f_card1 img-fluid" />
+                      <img src={card2} alt=" " className="f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center">
                       આહીર શૈક્ષણિક ભવન <br /> દ્વારકા
@@ -366,7 +366,7 @@ const Home_Page = () => {
                   </div>
                   <div className="col-md-4">
                     <Link to="/admission_bhavnager">
-                      <img src={card2} alt="Image 15" className="f_card1 img-fluid" />
+                      <img src={card2} alt=" " className="f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center">
                       આહીર શૈક્ષણિક ભવન <br /> ભાવનગર
@@ -380,7 +380,7 @@ const Home_Page = () => {
                 <div className="row" data-aos="fade-up">
                   <div className="col-md-4">
                     <Link to="/admission_dwarka">
-                      <img src={card2} alt="Image 16" className="f_card1 img-fluid" />
+                      <img src={card2} alt=" " className="f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center">
                       આહીર શૈક્ષણિક ભવન <br /> દ્વારકા
@@ -388,7 +388,7 @@ const Home_Page = () => {
                   </div>
                   <div className="col-md-4">
                     <Link to="/admission_bhavnager">
-                      <img src={card2} alt="Image 17" className="f_card1 img-fluid" />
+                      <img src={card2} alt=" " className="f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center">
                       આહીર શૈક્ષણિક ભવન <br /> ભાવનગર
@@ -396,7 +396,7 @@ const Home_Page = () => {
                   </div>
                   <div className="col-md-4">
                     <Link to="/admission_rajkot">
-                      <img src={card2} alt="Image 18" className="f_card1 img-fluid" />
+                      <img src={card2} alt=" " className="f_card1 img-fluid" />
                     </Link>
                     <h1 className="txt11 text-center">
                       આહીર શૈક્ષણિક ભવન <br /> રાજકોટ
@@ -475,7 +475,7 @@ const Home_Page = () => {
           <div className="row" data-aos="fade-right">
             <div className="col-sm-12 col-md-1"></div>
             <div className="col-sm-12 col-md-3 image-cont">
-              <img src={card2} alt="Image 1" className="f_card11" />
+              <img src={card2} alt=" " className="f_card11" />
               <div className="overlay">
                 <h1 className="txt111 text-center">
                   It is a long established fact that a reader will be distracted by the <br />
@@ -489,7 +489,7 @@ const Home_Page = () => {
             </div>
 
             <div className="col-sm-12 col-md-4 image-cont">
-              <img src={card2} alt="Image 2" className="f_card11" />
+              <img src={card2} alt=" " className="f_card11" />
               <div className="overlay">
                 <h1 className="txt111 text-center">
                   It is a long established fact that a reader will be distracted by the <br />
@@ -503,7 +503,7 @@ const Home_Page = () => {
             </div>
 
             <div className="col-sm-12 col-md-3 image-cont">
-              <img src={card2} alt="Image 3" className="f_card11" />
+              <img src={card2} alt=" " className="f_card11" />
               <div className="overlay">
                 <h1 className="txt111 text-center">
                   It is a long established fact that a reader will be distracted by the <br />
@@ -522,7 +522,7 @@ const Home_Page = () => {
           <div className="row" data-aos="fade-right">
             <div className="col-sm-12 col-md-1"></div>
             <div className="col-sm-12 col-md-3 image-cont">
-              <img src={card2} alt="Image 4" className="f_card11" />
+              <img src={card2} alt=" " className="f_card11" />
               <div className="overlay">
                 <h1 className="txt111 text-center">
                   It is a long established fact that a reader will be distracted by the <br />
@@ -536,7 +536,7 @@ const Home_Page = () => {
             </div>
 
             <div className="col-sm-12 col-md-4 image-cont">
-              <img src={card2} alt="Image 5" className="f_card11" />
+              <img src={card2} alt=" " className="f_card11" />
               <div className="overlay">
                 <h1 className="txt111 text-center">
                   It is a long established fact that a reader will be distracted by the <br />
@@ -550,7 +550,7 @@ const Home_Page = () => {
             </div>
 
             <div className="col-sm-12 col-md-3 image-cont">
-              <img src={card2} alt="Image 6" className="f_card11" />
+              <img src={card2} alt=" " className="f_card11" />
               <div className="overlay">
                 <h1 className="txt111 text-center">
                   It is a long established fact that a reader will be distracted by the <br />
@@ -591,13 +591,13 @@ const Home_Page = () => {
                 </strong>
               </p>
               <div>
-                <a href="#">
+                <a href=" ">
                   <img src={fb1} alt="Facebook" className="alogo fb_logo" />
                 </a>
-                <a href="#">
+                <a href=" ">
                   <img src={ig1} alt="Instagram" className="alogo ig_logo" />
                 </a>
-                <a href="#">
+                <a href=" ">
                   <img src={tt1} alt="Twitter" className="alogo tt_logo" />
                 </a>
               </div>
@@ -612,7 +612,7 @@ const Home_Page = () => {
                   <a href="/About">
                     <p className="mb-2">About Us</p>
                   </a>
-                  <a href="#">
+                  <a href=" ">
                     <p className="mb-2">Admission</p>
                   </a>
                   <a href="/Contact">

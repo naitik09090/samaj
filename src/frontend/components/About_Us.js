@@ -312,13 +312,13 @@ const About_Us = () => {
                 primis in faucibus
               </p>
               <div className="gap-3 mt-3">
-                <a href="#">
+                <a href=" ">
                   <img src={fb1} alt="Facebook" className="alogo fb_logo" />
                 </a>
-                <a href="#">
+                <a href=" ">
                   <img src={ig1} alt="Instagram" className="alogo ig_logo" />
                 </a>
-                <a href="#">
+                <a href=" ">
                   <img src={tt1} alt="Twitter" className="alogo tt_logo" />
                 </a>
               </div>
@@ -333,7 +333,7 @@ const About_Us = () => {
                   <a href="/about">
                     <p className="mb-2">About Us</p>
                   </a>
-                  <a href="#">
+                  <a href=" ">
                     <p className="mb-2">Admission</p>
                   </a>
                   <a href="/contact">

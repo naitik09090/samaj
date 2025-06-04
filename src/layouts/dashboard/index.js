@@ -5,7 +5,7 @@ import MDBox from "components/MDBox";
 // Material Dashboard 2 React components
 import DashboardLayout from "examples/LayoutContainers/DashboardLayout";
 import DashboardNavbar from "examples/Navbars/DashboardNavbar";
-import Footer from "examples/Footer";
+// import Footer from "examples/Footer";
 import ComplexStatisticsCard from "examples/Cards/StatisticsCards/ComplexStatisticsCard";
 import ReportsBarChart from "examples/Charts/BarCharts/ReportsBarChart";
 import ReportsLineChart from "examples/Charts/LineCharts/ReportsLineChart";
@@ -15,7 +15,7 @@ import reportsLineChartData from "layouts/dashboard/data/reportsLineChartData";
 import reportsBarChartData from "layouts/dashboard/data/reportsBarChartData";
 
 function Dashboard() {
-  const { sales, tasks } = reportsLineChartData;
+  const { sales } = reportsLineChartData;
 
   return (
     <DashboardLayout>

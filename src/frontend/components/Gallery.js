@@ -69,22 +69,22 @@ const About_Us = () => {
               </button>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item btn" onClick={() => setFilter("All")} href="#">
+                  <a className="dropdown-item btn" onClick={() => setFilter("All")} href=" ">
                     All
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item btn" onClick={() => setFilter("Resort")} href="#">
+                  <a className="dropdown-item btn" onClick={() => setFilter("Resort")} href=" ">
                     Resort
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item btn" onClick={() => setFilter("Food")} href="#">
+                  <a className="dropdown-item btn" onClick={() => setFilter("Food")} href=" ">
                     Food
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item btn" onClick={() => setFilter("Hotel")} href="#">
+                  <a className="dropdown-item btn" onClick={() => setFilter("Hotel")} href=" ">
                     Hotel
                   </a>
                 </li>

@@ -432,8 +432,8 @@ const Admission = () => {
             <div className="col-md-1"></div>
             <div className="col-md-5 m_txt">
               <b>
-                <a href="">
-                  <img src={Location_icon} alt="" className="img_કન્યા_છાત્રાલય d-block" />{" "}
+                <a href=" ">
+                  <img src={Location_icon} alt=" " className="img_કન્યા_છાત્રાલય d-block" />{" "}
                 </a>
               </b>
               <b className="b_કન્યા_છાત્રાલય">
@@ -442,16 +442,16 @@ const Admission = () => {
                 Gujarat 380015
               </b>
               <b>
-                <a href="">
-                  <img src={Call_icon} alt="" className="img_કન્યા_છાત્રાલય d-block" />{" "}
+                <a href=" ">
+                  <img src={Call_icon} alt=" " className="img_કન્યા_છાત્રાલય d-block" />{" "}
                 </a>
               </b>
               <b className="b_કન્યા_છાત્રાલય">
                 +1 253 565 2365 <br /> Mon to Fri 9am to 6pm
               </b>
               <b>
-                <a href="">
-                  <img src={Mail_icon} alt="" className="img_કન્યા_છાત્રાલય d-block" />{" "}
+                <a href=" ">
+                  <img src={Mail_icon} alt=" " className="img_કન્યા_છાત્રાલય d-block" />{" "}
                 </a>
               </b>
               <b className="b_કન્યા_છાત્રાલય">
@@ -463,6 +463,7 @@ const Admission = () => {
                 className="map"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d18302.748293324257!2d72.872099813405!3d21.245579736758803!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1sen!2sin!4v1747654806410!5m2!1sen!2sin"
                 loading="lazy"
+                title=" "
               ></iframe>
             </div>
             <div className="col-md-1"></div>
@@ -482,13 +483,13 @@ const Admission = () => {
                 primis in faucibus
               </p>
               <div className="gap-3 mt-3">
-                <a href="#">
+                <a href=" ">
                   <img src={fb1} alt="Facebook" className="alogo fb_logo" />
                 </a>
-                <a href="#">
+                <a href=" ">
                   <img src={ig1} alt="Instagram" className="alogo ig_logo" />
                 </a>
-                <a href="#">
+                <a href=" ">
                   <img src={tt1} alt="Twitter" className="alogo tt_logo" />
                 </a>
               </div>
@@ -503,7 +504,7 @@ const Admission = () => {
                   <a href="/about">
                     <p className="mb-2">About Us</p>
                   </a>
-                  <a href="#">
+                  <a href=" ">
                     <p className="mb-2">Admission</p>
                   </a>
                   <a href="/contact">

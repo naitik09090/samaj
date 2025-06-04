@@ -7,7 +7,7 @@ const GoToTop = () => {
   }
   return (
     <div className="top-btn" onClick={GoToBtn}>
-      <img src={up} className="top-btn-img"></img>
+      <img src={up} alt=" " className="top-btn-img"></img>
     </div>
   );
 };

@@ -60,24 +60,24 @@ const Navbar = () => {
                 </li> */}
               </ul>
               <div className="mx-auto">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href=" ">
                   <img src={logo} alt="Logo" className="logo" />
                 </a>
               </div>
 
               <ul className="t_icon navbar-nav ms-auto d-flex flex-row align-items-center">
                 <li className=" nav-item ms-2">
-                  <a className="nav-link p-0" href="#">
+                  <a className="nav-link p-0" href=" ">
                     <img src={fb} alt="Facebook" className="fb fb_logo1" />
                   </a>
                 </li>
                 <li className="nav-item ms-2">
-                  <a className="nav-link p-0" href="#">
+                  <a className="nav-link p-0" href=" ">
                     <img src={ig} alt="Instagram" className="ig ig_logo1" />
                   </a>
                 </li>
                 <li className="nav-item ms-2">
-                  <a className="nav-link p-0" href="#">
+                  <a className="nav-link p-0" href=" ">
                     <img src={tt} alt="Twitter" className="tt tt_logo1" />
                   </a>
                 </li>

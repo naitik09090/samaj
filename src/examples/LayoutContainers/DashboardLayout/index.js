@@ -13,7 +13,7 @@ Coded by www.creative-tim.com
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
 
-import { useEffect } from "react";
+import { useEffect} from "react";
 
 // react-router-dom components
 import { useLocation } from "react-router-dom";
@@ -34,7 +34,7 @@ function DashboardLayout({ children }) {
 
   useEffect(() => {
     setLayout(dispatch, "dashboard");
-  }, [pathname]);
+  }, [dispatch, pathname]);
 
   return (
     <MDBox
