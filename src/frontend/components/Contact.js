@@ -10,7 +10,6 @@ import ig1 from "../image/ig1.png";
 import tt1 from "../image/tt1.png";
 import "aos/dist/aos.css";
 import AOS from "aos";
-import up from "../image/up.png";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -53,16 +52,9 @@ const Contact = () => {
       anchorPlacement: "top-bottom",
     });
   }, []);
-  const GoToBtn = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  };
-
   return (
     <>
       <div className="container-fluid main">
-        <div className="top-btn" onClick={GoToBtn}>
-          <img src={up} className="top-btn-img"></img>
-        </div>
         {/* Slider Three image */}
 
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel">

@@ -14,7 +14,6 @@ import g12 from "../image/g12.jpg";
 import "aos/dist/aos.css";
 import AOS from "aos";
 import { Link } from "react-router-dom";
-import up from "../image/up.png";
 
 const images = [
   { src: g1, category: "Resort" },
@@ -46,18 +45,12 @@ const About_Us = () => {
       anchorPlacement: "top-bottom",
     });
   }, []);
-  const GoToBtn = () => {
-    window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
-  };
   const filteredImages =
     filter === "All" ? images : images.filter((img) => img.category === filter);
 
   return (
     <>
       <div className="container-fluid main">
-        <div className="top-btn" onClick={GoToBtn}>
-          <img src={up} className="top-btn-img"></img>
-        </div>
         {/* Gallery */}
         <div className="bg-gallery container-fluid d-block" data-aos="fade-up">
           <div className="row">

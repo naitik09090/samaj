@@ -36,26 +36,26 @@ function App() {
 
   return (
     <>
+      <Router>
         <GoToTop />
-          <Router>
-            <Navbar />
-            <Routes>
-              <Route path="/home" element={<Home_Page />} />
-              <Route path="/About" element={<About_Us />} />
-              <Route path="/Contact" element={<Contact />} />
-              <Route path="/Admission_Surat" element={<Admission_Surat />} />
-              <Route path="/Admission_Ahmedabad" element={<Admission_Ahmedabad />} />
-              <Route path="/Admission_Surat1" element={<Admission_Surat1 />} />
-              <Route path="/Admission_Rajkot" element={<Admission_Rajkot />} />
-              <Route path="/Admission_Dwarka" element={<Admission_Dwarka />} />
-              <Route path="/Admission_Bhavnager" element={<Admission_Bhavnager />} />
-              <Route path="/Apani_Sanstha" element={<Apani_Sanstha />} />
-              <Route path="/Gallery" element={<Gallery />} />
-              <Route path="/Gallery2" element={<Gallery2 />} />
-              {/* <Route path="/signup" element={<Sign_Up />} />
+        <Navbar />
+        <Routes>
+          <Route path="/home" element={<Home_Page />} />
+          <Route path="/About" element={<About_Us />} />
+          <Route path="/Contact" element={<Contact />} />
+          <Route path="/Admission_Surat" element={<Admission_Surat />} />
+          <Route path="/Admission_Ahmedabad" element={<Admission_Ahmedabad />} />
+          <Route path="/Admission_Surat1" element={<Admission_Surat1 />} />
+          <Route path="/Admission_Rajkot" element={<Admission_Rajkot />} />
+          <Route path="/Admission_Dwarka" element={<Admission_Dwarka />} />
+          <Route path="/Admission_Bhavnager" element={<Admission_Bhavnager />} />
+          <Route path="/Apani_Sanstha" element={<Apani_Sanstha />} />
+          <Route path="/Gallery" element={<Gallery />} />
+          <Route path="/Gallery2" element={<Gallery2 />} />
+          {/* <Route path="/signup" element={<Sign_Up />} />
               <Route path="/signup2" element={<Sign_Up2 />} /> */}
-            </Routes>
-          </Router>
+        </Routes>
+      </Router>
     </>
   );
 }

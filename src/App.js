@@ -68,6 +68,7 @@ import Gallery from "./frontend/components/Gallery.js";
 import Gallery2 from "./frontend/components/Gallery2.js";
 import HomePage from "./frontend/components/Home_Page.js";
 import Navbar from "./frontend/components/Navbar.js";
+import gototop from "./frontend/components/GoToTop.js";
 // import Sign_Up_Form from "./frontend/components/Sign_Up_Form.js";
 // import Sign_Up_Form2 from "./frontend/components/Sign_Up_Form2.js";
 import "./frontend/Navbar.css";
@@ -81,6 +82,7 @@ import Sanstha from "layouts/sanstha/index.js";
 import News from "layouts/news/index.js";
 import Profile from "layouts/profile/index.js";
 import Video from "layouts/gallery/components/Footer/index.js";
+import GoToTop from "./frontend/components/GoToTop.js";
 
 export default function App() {
   const [controller, dispatch] = useMaterialUIController();
@@ -285,8 +287,9 @@ export default function App() {
               path="/"
               element={
                 <>
-                  <Navbar/>
-                  <HomePage/>
+                  <GoToTop />
+                  <Navbar />
+                  <HomePage />
                 </>
               }
             />
@@ -294,6 +297,7 @@ export default function App() {
               path="/home"
               element={
                 <>
+                  <GoToTop />
                   <Navbar />
                   <HomePage />
                 </>
@@ -303,6 +307,7 @@ export default function App() {
               path="/about"
               element={
                 <>
+                  <GoToTop />
                   <Navbar />
                   <AboutUs />
                 </>
@@ -312,6 +317,7 @@ export default function App() {
               path="/contact"
               element={
                 <>
+                  <GoToTop />
                   <Navbar />
                   <Contact />
                 </>
@@ -321,6 +327,7 @@ export default function App() {
               path="/admission_surat"
               element={
                 <>
+                  <GoToTop />
                   <Navbar />
                   <Admission />
                 </>
@@ -330,6 +337,7 @@ export default function App() {
               path="/admission_ahmedabad"
               element={
                 <>
+                  <GoToTop />
                   <Navbar />
                   <AdmissionAhmedabad />
                 </>
@@ -339,6 +347,7 @@ export default function App() {
               path="/admission_surat1"
               element={
                 <>
+                  <GoToTop />
                   <Navbar />
                   <AdmissionSurat1 />
                 </>
@@ -348,6 +357,7 @@ export default function App() {
               path="/admission_rajkot"
               element={
                 <>
+                  <GoToTop />
                   <Navbar />
                   <AdmissionRajkot />
                 </>
@@ -357,6 +367,7 @@ export default function App() {
               path="/admission_dwarka"
               element={
                 <>
+                  <GoToTop />
                   <Navbar />
                   <AdmissionDwarka />
                 </>
@@ -366,6 +377,7 @@ export default function App() {
               path="/admission_bhavnager"
               element={
                 <>
+                  <GoToTop />
                   <Navbar />
                   <AdmissionBhavnager />
                 </>
@@ -375,6 +387,7 @@ export default function App() {
               path="/apani_sanstha"
               element={
                 <>
+                  <GoToTop />
                   <Navbar />
                   <ApaniSanstha />
                 </>
@@ -384,6 +397,7 @@ export default function App() {
               path="/latest_news"
               element={
                 <>
+                  <GoToTop />
                   <Navbar />
                   <LatestNews />
                 </>
@@ -393,6 +407,7 @@ export default function App() {
               path="/gallery"
               element={
                 <>
+                  <GoToTop />
                   <Navbar />
                   <Gallery />
                 </>
@@ -402,6 +417,7 @@ export default function App() {
               path="/gallery2"
               element={
                 <>
+                  <GoToTop />
                   <Navbar />
                   <Gallery2 />
                 </>
