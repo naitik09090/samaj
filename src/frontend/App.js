@@ -16,8 +16,8 @@ import Admission_Rajkot from "./components/Admission_Rajkot.js";
 import Admission_Dwarka from "./components/Admission_Dwarka.js";
 import Admission_Bhavnager from "./components/Admission_Bhavnager.js";
 import Apani_Sanstha from "./components/આપડી_સંસ્થાઓ.js";
-import Sign_Up from "./components/Sign_Up_Form.js";
-import Sign_Up2 from "./components/Sign_Up_Form2.js";
+// import Sign_Up from "./components/Sign_Up_Form.js";
+// import Sign_Up2 from "./components/Sign_Up_Form2.js";
 import Gallery from "./components/Gallery.js";
 import Gallery2 from "./components/Gallery2.js";
 import GoToTop from "./components/GoToTop.js";
@@ -52,8 +52,8 @@ function App() {
               <Route path="/Apani_Sanstha" element={<Apani_Sanstha />} />
               <Route path="/Gallery" element={<Gallery />} />
               <Route path="/Gallery2" element={<Gallery2 />} />
-              <Route path="/signup" element={<Sign_Up />} />
-              <Route path="/signup2" element={<Sign_Up2 />} />
+              {/* <Route path="/signup" element={<Sign_Up />} />
+              <Route path="/signup2" element={<Sign_Up2 />} /> */}
             </Routes>
           </Router>
     </>

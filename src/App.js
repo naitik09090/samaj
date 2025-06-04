@@ -54,19 +54,19 @@ import { useMaterialUIController, setMiniSidenav, setOpenConfigurator } from "co
 // Images
 import brandWhite from "assets/images/logo-ct.png";
 import brandDark from "assets/images/logo-ct-dark.png";
-import About_Us from "./frontend/components/About_Us.js";
+import AboutUs from "./frontend/components/About_Us.js";
 import Contact from "./frontend/components/Contact.js";
 import Admission from "./frontend/components/Admission_Surat.js";
-import Admission_Ahmedabad from "./frontend/components/Admission_Ahmedabad.js";
-import Admission_Surat1 from "./frontend/components/Admission_Surat1.js";
-import Admission_Rajkot from "./frontend/components/Admission_Rajkot.js";
-import Admission_Dwarka from "./frontend/components/Admission_Dwarka.js";
-import Admission_Bhavnager from "./frontend/components/Admission_Bhavnager.js";
-import Apani_Sanstha from "./frontend/components/આપડી_સંસ્થાઓ.js";
-import Latest_News from "./frontend/components/Latest_News.js";
+import AdmissionAhmedabad from "./frontend/components/Admission_Ahmedabad.js";
+import AdmissionSurat1 from "./frontend/components/Admission_Surat1.js";
+import AdmissionRajkot from "./frontend/components/Admission_Rajkot.js";
+import AdmissionDwarka from "./frontend/components/Admission_Dwarka.js";
+import AdmissionBhavnager from "./frontend/components/Admission_Bhavnager.js";
+import ApaniSanstha from "./frontend/components/આપડી_સંસ્થાઓ.js";
+import LatestNews from "./frontend/components/Latest_News.js";
 import Gallery from "./frontend/components/Gallery.js";
 import Gallery2 from "./frontend/components/Gallery2.js";
-import Home_Page from "./frontend/components/Home_Page.js";
+import HomePage from "./frontend/components/Home_Page.js";
 import Navbar from "./frontend/components/Navbar.js";
 // import Sign_Up_Form from "./frontend/components/Sign_Up_Form.js";
 // import Sign_Up_Form2 from "./frontend/components/Sign_Up_Form2.js";
@@ -111,7 +111,7 @@ export default function App() {
   // Open sidenav when mouse enter on mini sidenav
   const handleOnMouseEnter = () => {
     if (miniSidenav && !onMouseEnter) {
-      setMiniSidenav(dispatch, false);
+      setMiniSidenav(handleConfiguratorOpen, false);
       setOnMouseEnter(true);
     }
   };
@@ -285,8 +285,8 @@ export default function App() {
               path="/"
               element={
                 <>
-                  <Navbar />
-                  <Home_Page />
+                  <Navbar/>
+                  <HomePage/>
                 </>
               }
             />
@@ -295,7 +295,7 @@ export default function App() {
               element={
                 <>
                   <Navbar />
-                  <Home_Page />
+                  <HomePage />
                 </>
               }
             />
@@ -304,7 +304,7 @@ export default function App() {
               element={
                 <>
                   <Navbar />
-                  <About_Us />
+                  <AboutUs />
                 </>
               }
             />
@@ -331,7 +331,7 @@ export default function App() {
               element={
                 <>
                   <Navbar />
-                  <Admission_Ahmedabad />
+                  <AdmissionAhmedabad />
                 </>
               }
             />
@@ -340,7 +340,7 @@ export default function App() {
               element={
                 <>
                   <Navbar />
-                  <Admission_Surat1 />
+                  <AdmissionSurat1 />
                 </>
               }
             />
@@ -349,7 +349,7 @@ export default function App() {
               element={
                 <>
                   <Navbar />
-                  <Admission_Rajkot />
+                  <AdmissionRajkot />
                 </>
               }
             />
@@ -358,7 +358,7 @@ export default function App() {
               element={
                 <>
                   <Navbar />
-                  <Admission_Dwarka />
+                  <AdmissionDwarka />
                 </>
               }
             />
@@ -367,7 +367,7 @@ export default function App() {
               element={
                 <>
                   <Navbar />
-                  <Admission_Bhavnager />
+                  <AdmissionBhavnager />
                 </>
               }
             />
@@ -376,7 +376,7 @@ export default function App() {
               element={
                 <>
                   <Navbar />
-                  <Apani_Sanstha />
+                  <ApaniSanstha />
                 </>
               }
             />
@@ -385,7 +385,7 @@ export default function App() {
               element={
                 <>
                   <Navbar />
-                  <Latest_News />
+                  <LatestNews />
                 </>
               }
             />
