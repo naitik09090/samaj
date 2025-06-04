@@ -1,8 +1,4 @@
 /* Home_page Css */
-.main {
-  overflow-x: hidden;
-  overflow-y: hidden;
-}
 
 .bg1 {
   background-image: url("image/bg.jpg");
@@ -748,5 +744,5 @@ a {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: transparent;
+  background: transparent;  
 }

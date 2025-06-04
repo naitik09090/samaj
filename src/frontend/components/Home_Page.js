@@ -92,7 +92,7 @@ const Home_Page = () => {
         <div className="container-fluid d-flex justify-content-center">
           <ul className="nav nav-tabs" role="tablist">
             <li className="nav-item" data-bs-toggle="tab">
-              <a className="nav-link nav_1 active" href="#an_ideology">
+              <a className="nav-link nav_1" href="#an_ideology">
                 An_Ideology
               </a>
             </li>

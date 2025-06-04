@@ -68,7 +68,7 @@ import Gallery from "./frontend/components/Gallery.js";
 import Gallery2 from "./frontend/components/Gallery2.js";
 import HomePage from "./frontend/components/Home_Page.js";
 import Navbar from "./frontend/components/Navbar.js";
-import gototop from "./frontend/components/GoToTop.js";
+import GoToTop from "./frontend/components/GoToTop.js";
 // import Sign_Up_Form from "./frontend/components/Sign_Up_Form.js";
 // import Sign_Up_Form2 from "./frontend/components/Sign_Up_Form2.js";
 import "./frontend/Navbar.css";
@@ -82,7 +82,6 @@ import Sanstha from "layouts/sanstha/index.js";
 import News from "layouts/news/index.js";
 import Profile from "layouts/profile/index.js";
 import Video from "layouts/gallery/components/Footer/index.js";
-import GoToTop from "./frontend/components/GoToTop.js";
 
 export default function App() {
   const [controller, dispatch] = useMaterialUIController();
@@ -125,7 +124,6 @@ export default function App() {
       setOnMouseEnter(false);
     }
   };
-
   // Change the openConfigurator state
   const handleConfiguratorOpen = () => setOpenConfigurator(dispatch, !openConfigurator);
 
@@ -159,6 +157,7 @@ export default function App() {
     "/gallery",
     "/gallery2",
     "/navbar",
+    "/gototop",
     // "/signup",
     // "/signup2",
   ].includes(currentPath.toLowerCase());
@@ -441,6 +440,7 @@ export default function App() {
               }
             /> */}
             <Route path="/navbar" element={<Navbar />} />
+            <Route path="/gototop" element={<GoToTop />} />
           </>
         )}
       </Routes>
