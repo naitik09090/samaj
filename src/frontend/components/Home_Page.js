@@ -34,7 +34,7 @@ const Home_Page = () => {
   return (
     <>
       <div className="top-btn" onClick={GoToBtn}>
-        <img src={up} className="top-btn-img"></img>
+        <img src={up} className="top-btn-img" />
       </div>
       <div className="container-fluid main">
         {/* Slider Three image */}
@@ -96,24 +96,24 @@ const Home_Page = () => {
 
         {/* Second Navbar */}
 
-        <div className="container-fluid d-flex justify-content-center align-items-center">
+        <div className="container-fluid d-flex justify-content-center">
           <ul className="nav nav-tabs" role="tablist">
-            <li className="nav-item">
+            <li className="nav-item" data-bs-toggle="tab">
               <a className="nav-link nav_1 active" href="#an_ideology">
                 An_Ideology
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" data-bs-toggle="tab">
               <a className="nav-link nav_1" href="#આપડી_સંસ્થાઓ">
                 આપડી_સંસ્થાઓ
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" data-bs-toggle="tab">
               <a className="nav-link nav_1" href="#youtube">
                 Youtube
               </a>
             </li>
-            <li className="nav-item">
+            <li className="nav-item" data-bs-toggle="tab">
               <a className="nav-link nav_1" href="#latest_news">
                 Latest News
               </a>
