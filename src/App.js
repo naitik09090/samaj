@@ -285,7 +285,8 @@ export default function App() {
               path="/"
               element={
                 <>
-                  <Sign_Up_Form2 />
+                  <Navbar />
+                  <Home_Page />
                 </>
               }
             />

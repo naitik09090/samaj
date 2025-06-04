@@ -80,13 +80,13 @@ function Slideshow() {
               <CardContent>
                 <Typography variant="h6">Static Post {index + 1}</Typography>
                 <Box>
-                  <IconButton color="info" onClick={() => handleView(item)}>
+                  <IconButton color="info" onClick={() => handleView()}>
                     <VisibilityIcon />
                   </IconButton>
-                  <IconButton color="warning" onClick={() => handleEdit(item)}>
+                  <IconButton color="warning" onClick={() => handleEdit()}>
                     <EditIcon />
                   </IconButton>
-                  <IconButton color="error" onClick={() => handleDelete(item)}>
+                  <IconButton color="error" onClick={() => handleDelete()}>
                     <DeleteIcon />
                   </IconButton>
                 </Box>

@@ -25,10 +25,10 @@
     "material-dashboard-2-react": "file:",
     "mdb-react-ui-kit": "^9.0.0",
     "prop-types": "15.8.1",
-    "react": "18.2.0",
+    "react": "^18.2.0",
     "react-bootstrap": "^2.10.10",
     "react-chartjs-2": "5.2.0",
-    "react-dom": "18.2.0",
+    "react-dom": "^18.2.0",
     "react-github-btn": "1.4.0",
     "react-icons": "^5.5.0",
     "react-router-dom": "6.11.0",
@@ -64,6 +64,8 @@
     ]
   },
   "devDependencies": {
+    "@types/node": "^22.15.29",
+    "@types/react": "^19.1.6",
     "ajv": "^7.2.4",
     "eslint": "8.39.0",
     "eslint-config-prettier": "8.8.0",
