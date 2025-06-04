@@ -69,7 +69,7 @@ import Gallery2 from "./frontend/components/Gallery2.js";
 import Home_Page from "./frontend/components/Home_Page.js";
 import Navbar from "./frontend/components/Navbar.js";
 // import Sign_Up_Form from "./frontend/components/Sign_Up_Form.js";
-import Sign_Up_Form2 from "./frontend/components/Sign_Up_Form2.js";
+// import Sign_Up_Form2 from "./frontend/components/Sign_Up_Form2.js";
 import "./frontend/Navbar.css";
 import "./frontend/About_Us.css";
 import "./frontend/Home_Page.css";
@@ -158,7 +158,7 @@ export default function App() {
     "/gallery2",
     "/navbar",
     // "/signup",
-    "/signup2",
+    // "/signup2",
   ].includes(currentPath.toLowerCase());
 
   const isPublicRoutes = [
@@ -416,14 +416,14 @@ export default function App() {
                 </>
               }
             /> */}
-            <Route
+            {/* <Route
               path="/signup2"
               element={
                 <>
                   <Sign_Up_Form2 />
                 </>
               }
-            />
+            /> */}
             <Route path="/navbar" element={<Navbar />} />
           </>
         )}
